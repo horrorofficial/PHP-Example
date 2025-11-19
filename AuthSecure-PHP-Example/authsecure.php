@@ -139,7 +139,7 @@ class api
 
         private function req($data)
         {
-            $curl = curl_init("https://authsecure.shop/post/api.php");
+            $curl = curl_init("https://horrorgamingkeyauth.shop/post/api.php");
             curl_setopt($curl, CURLOPT_USERAGENT, "AUTHECURE PHP API");
             curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
@@ -192,3 +192,4 @@ class api
             }
         }
 ?>
+
